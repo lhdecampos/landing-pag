@@ -12,6 +12,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -19,6 +20,7 @@ body {
     font-size: 1.6rem;
     color: var(--primery-color);
     font-size: 2rem;
+    line-height: 1.5;
 
 }
 
@@ -36,8 +38,11 @@ h1 {
     text-transform: uppercase;
 }
 
-h2 {
-    font-size: 5.5rem;
+h2{
+ font-size: 5rem;
+ margin-bottom: 5rem;
+ text-transform: uppercase;
+ line-height: 1.2;
 }
 
 h3 {
@@ -61,6 +66,14 @@ a {
     color: inherit;
 }
 
+p{
+    margin-bottom: var(--gap);
+}
+
+.menu-spacing {
+    height: 6.1rem;
+}
+
 .main-bg {
     background-image: url('../img/mainbg.svg');
     background-position: center center;
@@ -70,6 +83,7 @@ a {
 
 .white-bg {
     background: var(--white-color);
+    color: var(--primery-color);
 }
 
 .main-content {
@@ -84,8 +98,46 @@ a {
     min-height: 100vh;
 }
 
+.intro-content {
+    position: relative;
+    top: -6.1rem;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: var(--gap);
+    height: 100vh;
+}
+
+.intro-text, .intro-img{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.intro-text h2{
+ font-size: 5rem;
+ margin-bottom: 5rem;
+ text-transform: uppercase;
+ line-height: 1.2;
+}
+
+.top3-content{
+    max-width: 64rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    
+}
+
+.intro-img img{
+    max-width: 100%;
+    height: auto;
+}
+
 .menu {
     position: fixed;
+    z-index: 1;
     top: 0;
     left: 0;
     right: 0;
