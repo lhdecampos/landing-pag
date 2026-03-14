@@ -397,6 +397,7 @@ body .full-width {
 
     .section {
         min-height: auto;
+        scroll-margin-top: 0;
     }
 
     .intro-img img {
