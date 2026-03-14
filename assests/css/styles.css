@@ -347,6 +347,14 @@ body .full-width{
         grid-template-columns: 1fr;
     }
 
+    .intro-content {
+        text-align: center;
+    }
+
+    .intro-text {
+        align-items: center;
+    }
+
     .gallery-img{
         width: 100%;
         max-width: 100%;
@@ -354,8 +362,21 @@ body .full-width{
         overflow: hidden;
     }
 
+    
+
     .grid-one-content{
         display: block;
     }
+
+    .intro-img {
+        order: -1; /* imagem sobe */
+    }
+
+    .intro-img img {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    
 }
 
