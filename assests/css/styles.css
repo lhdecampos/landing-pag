@@ -342,4 +342,20 @@ body .full-width{
 .form-group ::placeholder{
     color: var(--dark-gray-color);
 }
+@media (max-width: 800px){
+    .intro-content, .grid{
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-img{
+        width: 100%;
+        max-width: 100%;
+        max-height: auto;
+        overflow: hidden;
+    }
+
+    .grid-one-content{
+        display: block;
+    }
+}
 
