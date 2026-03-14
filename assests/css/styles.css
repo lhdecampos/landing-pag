@@ -145,6 +145,11 @@ p{
     border-bottom: 0.1rem solid var(--light-gray-color);
 }
 
+.logo img{
+    width: 4rem;
+    height: auto;
+}
+
 .menu-content {
     display: flex;
     justify-content: space-between;
