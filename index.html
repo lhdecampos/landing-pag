@@ -18,15 +18,17 @@
 
 <body>
 
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="close menu" role="button" >
+    <label for="close-menu" title="close-menu" class="close-menu-label"></label>
     <aside class="menu white-bg" id="menu">
         <div class="main-content menu-content">
-            <h1 class="logo">
+            <h1 class="logo" onclick="document.getElementById('close-menu').checked = false">
                 <a href="#home">
                     <img src="assests/img/logo.png" alt="logo do site">
                 </a>
             </h1>
             <nav class="nav">
-                <ul>
+                <ul onclick="document.getElementById('close-menu').checked = false">
                     <li><a href="#intro">Intro</a></li>
                     <li><a href="#top3">Top 3 Jobs</a></li>
                     <li><a href="#galeria">Galeria</a></li>
@@ -204,5 +206,7 @@
     <footer id="footer" class="footer white-bg center">
         <p >Copyright &copy; Luis Henrique - 2026</p>
     </footer>
+
+    <a href="#" class="back-home">➤</a>
 </body>
 </html>
