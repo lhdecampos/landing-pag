@@ -392,6 +392,7 @@ body .full-width {
         grid-template-columns: 1fr;
         min-height: auto;
         text-align: center;
+        min-height: 100vh;
 
     }
 
