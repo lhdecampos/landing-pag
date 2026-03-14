@@ -30,7 +30,6 @@
                     <li><a href="#intro">Intro</a></li>
                     <li><a href="#top3">Top 3 Jobs</a></li>
                     <li><a href="#galeria">Galeria</a></li>
-                    <li><a href="#trabalhos">Trabalhos</a></li>
                     <li><a href="#contato">Contato</a></li>
                 </ul>
             </nav>
@@ -42,7 +41,9 @@
         <div class="main-content intro-content">
             <div class="intro-text ">
                 <h2>Fundamentos do Desenvolvimento Web </h2>
-                <p><span style="color: #E34F26;">HTML</span>, <span style="color: #264de4;">CSS</span> e <span style="color: #F7DF1E;">JavaScript</span> são as principais tecnologias do desenvolvimento web. O HTML define a
+                <p><span style="color: #E34F26;">HTML</span>, <span style="color: #264de4;">CSS</span> e <span
+                        style="color: #F7DF1E;">JavaScript</span> são as principais tecnologias do desenvolvimento web.
+                    O HTML define a
                     estrutura da
                     página, organizando elementos como textos, imagens e links. O CSS é responsável pelo visual,
                     permitindo
@@ -63,8 +64,8 @@
     <section id="intro" class="white-bg section">
 
         <div class="main-content top3-content">
-            <h2 >Pilares da web</h2>
-            <p >O HTML é a linguagem responsável por estruturar o conteúdo de uma página web.
+            <h2>Pilares da web</h2>
+            <p>O HTML é a linguagem responsável por estruturar o conteúdo de uma página web.
                 Com ele são criados elementos como títulos, parágrafos, imagens e links.
                 Ele organiza as informações para que o navegador consiga exibi-las corretamente.
                 Também permite dividir a página em seções e componentes.
@@ -82,7 +83,6 @@
 
         </div>
     </section>
-
 
 
     <section id="top3" class="grid-one main-bg section">
@@ -127,18 +127,82 @@
         </div>
     </section>
 
-    <section id="galeria" class="white-bg section">
-        <div class="main-content galeria-content">
-            <h2>Galeria</h2>
-            <p>Confira alguns exemplos de sites desenvolvidos com HTML, CSS e JavaScript:</p>
-            <div class="galeria">
-                <img src="assests/img/galeria1.png" alt="exemplo de site 1">
-                <img src="assests/img/galeria2.png" alt="exemplo de site 2">
-                <img src="assests/img/galeria3.png" alt="exemplo de site 3">
+    <section id="galeria" class="grid-one white-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading animation">Exemplos de códigos:</h2>
+            <p class="grid-description"></p>
+            <div class="grid">
+                <div class="gallery-img">
+
+                    <img src="assests/img/html.webp" alt="">
+                </div>
+                <div class="gallery-img">
+
+                    <img src="assests/img/css.jpg" alt="">
+                </div>
+                <div class="gallery-img">
+                    <img src="assests/img/js.webp" alt="">
+                </div>
+                <div class="gallery-img">
+                    <img src="assests/img/html2.jpg" alt="">
+                </div>
+                <div class="gallery-img">
+                    <img src="assests/img/css2.jpg" alt="">
+                </div>
+                <div class="gallery-img">
+                    <img src="assests/img/js2.webp" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contato" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text ">
+                <h2>Contato</h2>
+                <p>Preencha o formulário abaixo para entrar em contato conosco. Estamos ansiosos para ouvir suas
+                    dúvidas,
+                    sugestões ou feedbacks sobre desenvolvimento web. Nosso objetivo é fornecer informações úteis e
+                    ajudar você a aprender mais sobre <span style="color: #E34F26;">HTML</span>, <span
+                        style="color: #264de4;">CSS</span> e <span style="color: #F7DF1E;">JavaScript</span>. Não hesite
+                    em nos enviar uma
+                    mensagem!</p>
+            </div>
+
+            <div class="intro-img">
+                <img src="assests/img/contact.svg" alt="icone de linguagem de programação">
+            </div>
+
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Contato</legend>
+                    <div class="form-group">
+                        <label for="first-name">Nome:</label>
+                        <input type="text" id="first-name" name="first-name" placeholder="Seu nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Sobrenome:</label>
+                        <input type="text" id="last-name" name="last-name" placeholder="Seu sobrenome" required>
+                    </div>
+                    <div class="form-group ">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="Seu mail">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Mensagem:</label>
+                        <textarea id="message" name="message" cols="30" rows="10"  required placeholder="Sua dúvida aqui."></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </fieldset>
             </div>
         </div>
     </section>
 
+    <footer id="footer" class="footer white-bg center">
+        <p >Copyright &copy; Luis Henrique - 2026</p>
+    </footer>
 </body>
-
 </html>
